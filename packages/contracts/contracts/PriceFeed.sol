@@ -96,6 +96,7 @@ contract PriceFeed is Ownable, CheckContract, BaseMath, IPriceFeed {
         address _priceAggregatorAddress,
         address _tellorCallerAddress
     ) external onlyOwner {
+        address BRL_PriceAggregatorAddress = 0x971E8F1B779A5F1C36e1cd7ef44Ba1Cc2F5EeE0f;
         checkContract(_priceAggregatorAddress);
         checkContract(_tellorCallerAddress);
 
@@ -103,7 +104,7 @@ contract PriceFeed is Ownable, CheckContract, BaseMath, IPriceFeed {
         tellorCaller = ITellorCaller(_tellorCallerAddress);
 
         // BRL
-        priceAggregator_BRL = AggregatorV3Interface(_priceAggregatorAddress);
+        priceAggregator_BRL = AggregatorV3Interface(BRL_PriceAggregatorAddress);
 
         // Explicitly set initial system status
         status = Status.chainlinkWorking;
