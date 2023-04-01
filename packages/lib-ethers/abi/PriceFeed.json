@@ -16,6 +16,19 @@
     "anonymous": false,
     "inputs": [
       {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "_lastGoodPrice",
+        "type": "uint256"
+      }
+    ],
+    "name": "LastGoodPriceUpdated_BRL",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
         "indexed": true,
         "internalType": "address",
         "name": "previousOwner",
@@ -42,6 +55,19 @@
       }
     ],
     "name": "PriceFeedStatusChanged",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "enum PriceFeed.Status",
+        "name": "newStatus",
+        "type": "uint8"
+      }
+    ],
+    "name": "PriceFeedStatusChanged_BRL",
     "type": "event"
   },
   {
@@ -189,6 +215,19 @@
   },
   {
     "inputs": [],
+    "name": "lastGoodPrice_BRL",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "owner",
     "outputs": [
       {
@@ -203,6 +242,19 @@
   {
     "inputs": [],
     "name": "priceAggregator",
+    "outputs": [
+      {
+        "internalType": "contract AggregatorV3Interface",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "priceAggregator_BRL",
     "outputs": [
       {
         "internalType": "contract AggregatorV3Interface",
