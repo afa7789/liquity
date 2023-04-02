@@ -128,7 +128,7 @@ const config: HardhatUserConfig = {
     },
 
     forkedMainnet: {
-      url: "http://localhost:8545"
+      url: "http://localhost:8546"
     }
   },
 
@@ -162,12 +162,16 @@ const getContractFactory: (
   : env => env.ethers.getContractFactory;
 
 extendEnvironment(env => {
+  console.log("env",JSON.stringify(env,null,2))
   env.deployLiquity = async (
     deployer,
     useRealPriceFeed = false,
     wethAddress = undefined,
     overrides?: Overrides
   ) => {
+
+    console.log("USE REAL PRICE FEED",useRealPriceFeed)
+
     const deployment = await deployAndSetupContracts(
       deployer,
       getContractFactory(env),

@@ -1,0 +1,3168 @@
+yarn run v1.19.2
+$ yarn workspace @liquity/lib-ethers hardhat deploy --network forkedMainnet
+$ hardhat deploy --network forkedMainnet
+Deploying contracts...
+
+Deploying ActivePool ...
+Waiting for transaction 0x27b0f37f1076ec1d88f5949b920f9c7afd3ee1b2b4de9876b30fd84e83b9d58d ...
+{
+  contractAddress: '0x15478306A5866fc59f9419517AcCf32D07D3CdF8',
+  blockNumber: 16233480,
+  gasUsed: 727168
+}
+
+Deploying BorrowerOperations ...
+Waiting for transaction 0x907000f8b10a7620e0cf4d3c5750a83090f36fe6f24ad3ca164124c6812d7bd2 ...
+{
+  contractAddress: '0x6C8Fa25fE9BBDCA9cE2341F8F7b321C3549Cc792',
+  blockNumber: 16233481,
+  gasUsed: 3128016
+}
+
+Deploying TroveManager ...
+Waiting for transaction 0x77a55a68dc6cb10052f4476761b653557328e703d8d2a8ceb43dc5db54b956ec ...
+{
+  contractAddress: '0xEaB81fdbA76db245E58C7025D82955EfF292fC17',
+  blockNumber: 16233482,
+  gasUsed: 5085067
+}
+
+Deploying CollSurplusPool ...
+Waiting for transaction 0xdc903879943c2d55bd12a43bde757a6e7a34399bb8d691bab14ee68d8064cec3 ...
+{
+  contractAddress: '0xEE192255D3204a5e472B6B70e2FB5511C265eBBD',
+  blockNumber: 16233483,
+  gasUsed: 698750
+}
+
+Deploying CommunityIssuance ...
+Waiting for transaction 0x8a68459e0e43ece3f90bd59862fbccd9b3cadd3bb4bca8ff3d974cb411711481 ...
+{
+  contractAddress: '0x5e43b90760093b4b05B0F8409a0565e4B0c1Cc3a',
+  blockNumber: 16233484,
+  gasUsed: 701775
+}
+
+Deploying DefaultPool ...
+Waiting for transaction 0x121830f629646fa3e0f31be9cb5e5dbb37a70a4a63cb4715783cb9d15e5c320d ...
+{
+  contractAddress: '0xF65a506506448E03B804DFa83CC86655368C8DD1',
+  blockNumber: 16233485,
+  gasUsed: 608488
+}
+
+Deploying HintHelpers ...
+Waiting for transaction 0x3b648ba00d5f89d8e120c6ec2e1d5b61cfbb68dd99adb09c26f02d58302295ce ...
+{
+  contractAddress: '0x79095A5117A9aA69339B6aa76862eB3Eda357CB9',
+  blockNumber: 16233486,
+  gasUsed: 1201860
+}
+
+Deploying LockupContractFactory ...
+Waiting for transaction 0x7dfb2196f1fb8f7cdc150ab2774a255c8ba5e3facc783851721d28115c7c3e31 ...
+{
+  contractAddress: '0x16F2E53fa1a2ec432de5C40596906a30a05f4b2d',
+  blockNumber: 16233487,
+  gasUsed: 797858
+}
+
+Deploying LQTYStaking ...
+Waiting for transaction 0x852233c40926f432f544b0fc12ce2c58f0de4b07bad032e9b9b0fdf6161a3d2c ...
+{
+  contractAddress: '0xfB96CaA4AD4368d60bD73cd3f39985e7B45B69fE',
+  blockNumber: 16233488,
+  gasUsed: 1245432
+}
+
+Deploying PriceFeedTestnet ...
+Waiting for transaction 0xd23698e6d40c15fd86029f3c306dae3aee545c8dc07da5b92db13bb48f481745 ...
+{
+  contractAddress: '0x579F753226E1B652c20D1057D070D8312938DaFc',
+  blockNumber: 16233489,
+  gasUsed: 134035
+}
+
+Deploying SortedTroves ...
+Waiting for transaction 0x1b0f3f3604f73b212a80c6a061cf0b25e7cc38fa7d32ed62c68bba4b469ee49a ...
+{
+  contractAddress: '0x269c8D169eD0DBC7a826efCF3C16AEBd9A495e00',
+  blockNumber: 16233490,
+  gasUsed: 1449526
+}
+
+Deploying StabilityPool ...
+Waiting for transaction 0x50d3a3327d3fee33c16a95d7778da1943e07918a8217ffaef466b3740b3f8850 ...
+{
+  contractAddress: '0xC52f2F392222C74c69Ae0Bf44316dC335A78eC7E',
+  blockNumber: 16233491,
+  gasUsed: 3258882
+}
+
+Deploying GasPool ...
+Waiting for transaction 0x8ab07eedcbe2df1accbe3248d40902e60cc80f5d6d6eced80292d7344a5dcf19 ...
+{
+  contractAddress: '0xa531d35ee0934Efc5290A043122805dE954d28fb',
+  blockNumber: 16233492,
+  gasUsed: 67066
+}
+
+Deploying Unipool ...
+Waiting for transaction 0x6f49a1754b00e6a05d611ccef498c150a97fb0eb89dbaf194b4868a6bd89d378 ...
+{
+  contractAddress: '0x5382Ac591034321E59A3738E4f0C1b64087541C6',
+  blockNumber: 16233493,
+  gasUsed: 1181362
+}
+
+Deploying LUSDToken ...
+Waiting for transaction 0x6445521e8fea6e6ea199cfe988a6858ad265bffe835b9a5b7d59a527d99781e4 ...
+{
+  contractAddress: '0xAdDE731dcaf42aB6C04f6DDD00e73298f7dfFBc3',
+  blockNumber: 16233494,
+  gasUsed: 1219359
+}
+
+Deploying LQTYToken ...
+Waiting for transaction 0xb28f1a8ab285b2de5fa6256eba65595beac78f89ed196dbaf12ea4db40646898 ...
+{
+  contractAddress: '0x2C3f94517AB0af217799ED99a46f8a7BEBb3b323',
+  blockNumber: 16233495,
+  gasUsed: 1447923
+}
+
+Deploying MultiTroveGetter ...
+Waiting for transaction 0xe36b1fc50fccc1358f31f90bad3f8109c9f177e316f938d607a3680e2254bb36 ...
+{
+  contractAddress: '0x8659e23ce12d288186581FF51173836D1256108a',
+  blockNumber: 16233496,
+  gasUsed: 720626
+}
+
+Deploying ERC20Mock ...
+Waiting for transaction 0x51ee25ee32f77073c8bf4e7232c1a327ff52b4d6bb602df6cea9d76349e9e5e9 ...
+{
+  contractAddress: '0xcfA28aA7B2DA331Cf9bC9b3F93c804010ea34856',
+  blockNumber: 16233497,
+  gasUsed: 905187
+}
+
+Connecting contracts...
+Connected 1
+Connected 2
+Connected 3
+Connected 4
+Connected 5
+Connected 6
+Connected 7
+Connected 8
+Connected 9
+Connected 10
+Connected 11
+Connected 12
+
+{
+  chainId: 1,
+  version: '5305fc0f3c1e7b11d0a56aba0b8bef1bb672bdd7',
+  deploymentDate: 1671630536000,
+  bootstrapPeriod: 1209600,
+  totalStabilityPoolLQTYReward: '32000000',
+  liquidityMiningLQTYRewardRate: '0.257201646090534979',
+  _priceFeedIsTestnet: true,
+  _uniTokenIsMock: true,
+  _isDev: false,
+  startBlock: 16233480,
+  addresses: {
+    activePool: '0x15478306A5866fc59f9419517AcCf32D07D3CdF8',
+    borrowerOperations: '0x6C8Fa25fE9BBDCA9cE2341F8F7b321C3549Cc792',
+    troveManager: '0xEaB81fdbA76db245E58C7025D82955EfF292fC17',
+    collSurplusPool: '0xEE192255D3204a5e472B6B70e2FB5511C265eBBD',
+    communityIssuance: '0x5e43b90760093b4b05B0F8409a0565e4B0c1Cc3a',
+    defaultPool: '0xF65a506506448E03B804DFa83CC86655368C8DD1',
+    hintHelpers: '0x79095A5117A9aA69339B6aa76862eB3Eda357CB9',
+    lockupContractFactory: '0x16F2E53fa1a2ec432de5C40596906a30a05f4b2d',
+    lqtyStaking: '0xfB96CaA4AD4368d60bD73cd3f39985e7B45B69fE',
+    priceFeed: '0x579F753226E1B652c20D1057D070D8312938DaFc',
+    sortedTroves: '0x269c8D169eD0DBC7a826efCF3C16AEBd9A495e00',
+    stabilityPool: '0xC52f2F392222C74c69Ae0Bf44316dC335A78eC7E',
+    gasPool: '0xa531d35ee0934Efc5290A043122805dE954d28fb',
+    unipool: '0x5382Ac591034321E59A3738E4f0C1b64087541C6',
+    lusdToken: '0xAdDE731dcaf42aB6C04f6DDD00e73298f7dfFBc3',
+    lqtyToken: '0x2C3f94517AB0af217799ED99a46f8a7BEBb3b323',
+    multiTroveGetter: '0x8659e23ce12d288186581FF51173836D1256108a',
+    uniToken: '0xcfA28aA7B2DA331Cf9bC9b3F93c804010ea34856'
+  }
+}
+
+Done in 21.70s.
+yarn run v1.19.2
+$ yarn workspace @liquity/lib-ethers hardhat deploy --network forkedMainnet
+$ hardhat deploy --network forkedMainnet
+env {
+  "config": {
+    "networks": {
+      "hardhat": {
+        "hardfork": "london",
+        "blockGasLimit": 12000000,
+        "gasPrice": "auto",
+        "chainId": 31337,
+        "throwOnTransactionFailures": false,
+        "throwOnCallFailures": false,
+        "allowUnlimitedContractSize": false,
+        "mining": {
+          "auto": true,
+          "interval": 0
+        },
+        "accounts": [
+          {
+            "privateKey": "0x60ddfe7f579ab6867cbe7a2dc03853dc141d7a4ab6dbefc0dae2d2b1bd4e487f",
+            "balance": "100000000000000000000"
+          },
+          {
+            "privateKey": "0xeaa445c85f7b438ded6e831d06a4ed0cebdc2f8527f84fcda6ebb5fcfad4c0e9",
+            "balance": "10000000000000000000000"
+          },
+          {
+            "privateKey": "0x8b693607bd68c4deb7bcf976a473cf998bde9fbedf08e1d8adadacdff4e5d1b6",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x519b6e4f493e532a1bebfeb2a06ea25aad691a17875ccb38607d4a4c28dfadc2",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x09cff53c181c96b42255ccbceb2cee7012a532ecbceaabab4d55a47e1874fbfc",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x054ce61b1ea12d9edb667cefb001fadb07fe0c37b5a74542bb0dabf5ddeee5f0",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x42f55f0dffe4e9e2c2bdfde2ff98f3d1ea6d3f21a8bb0da644f1c0e0acd84fa0",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x8f3affec01e78ea6925de62d68a5f3f2cfda7d0c1e7ed9b20d31eb88b9ed6a58",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xbebef90a7e9a8e018f0f0babb868bc432c5e7f1efaae7e5b465d74afdd87c7cf",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xad55babd2fdced7aa85eb1fef47c455dbb7a57a46a16ac9acffbe66d7caf83ee",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x24adb73c45c2eccede38b63e5b8f3d3bb396cf0edfa4bb788231c8fd38d4cdd3",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xa7c2caceacfde954debdac9fe0db6d587ea1fc66ffa7b2e802d6021eef9facee",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xab6b6fd0bcac38e3453a751db3d6eea804acfac6782acc19ec2ea225673fac1c",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xbcded8cdabf2fecde7cd4ceb56e81b9eb8ddba4ffa4d7d9b5dabd70bffbacfdf",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x51b9f9a65ec3f86fede3ac7cbae613b6b2dec64c93b0fb0cddadb6f6ee3d9866",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xead23cf6c3e1f61a5e390381a39e7c8c79b6d03f51b4823d83afeecabbc1a680",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xcccb498d6ac5bb5ac0f963ecc80b8c54bbce8a0aff3df4a240dd07af6529bcac",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xf2f7299acb815b5002bd2c36cdbcce59f6efde6abdeb8b744e987cedd5b3e5df",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xbdea513ebca2683eae46dddd6adf8d8aef11ae3bb59d4faba5c01bb53b1caead",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x218b2ba39cee417a3ce486ca87e3ca63b360731ed7cef15eda6db88a872ca4e5",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x9ebc3ba711e9c6dfddbfd82c8ac29ddbfebe51d4fb2d5773c1c9ee1a0afcc76b",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x82ae62ffbaea3cf930f3c310ff8c9ec8aea8cbcd4abcd76d43d540eaaeb43ae2",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xadbfce089f7b0a1aea10020d0b4edcdda8fd13eb4bdfdd0b6ea3addfa79119f9",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x1aa9d55daddbd07c0ecf7eccc8e5aacdea5707b2f04a727ad60cf0d4d5cf21cf",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xbeff95de2b6ade8ee0fa6eabf7c10fee9afc1da7ae9ccb2bddceeb318deca3ce",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x8b44f27adf48a1a5c9bada13971ed6eeccdb7a223709c83b96af5cb89bd36f93",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xdc6e9936d3f49c26a73a4ab7e1ae2965f680adcadc4dccaff11a48e18bd63688",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc07df5fd6c4ff8be980d13adda3a86fc7b815babc091ecc23bbb27a1bfac22ce",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x64fbbd78cb201a5ee06fda113c4c91b85d8e0e2a5dffa38cd541dfdf72a01d52",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc28e7e4ce7bf6b7fdedd9483cdafc3a2cf1fecdace5e8ac3f81ccfa83e484f06",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xbcbdddceffd3b395bc4e02abc4cd464ebd3ba6f756beed414fb44e5bda35b6d1",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x1da12363e1ea59cac9f88e4acebbdca8cd25be2c72da22c3dd9d05e193678de8",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xce3ea4b6abfb9baf5ded76e6f6c67dce9f18d6bcb8290b76c2dacc87b2d63e0b",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x8bfddcdb52717a0dcc8daf7bc0fcdf127ba09375cf6ce3dbbee0c64e5dfca60d",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x77ce7dd53edb5d85d734103af171a7c47140ab474ae4d05aeabf5bead6effff9",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xb45dee462c21df583fa1bac536d41afe4ef7d84a858aec03f6d6d293f4881a9a",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x7b606a0c35dee9e81873f7e4fb1f73fcffb2a3cfd45ed12abcc08a3ceecaafb5",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x8de4c0048aac87fc0e61ceaf1503716cb8f25eda4be0dfddfd85568b052c6cc0",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xacfa5c7baff9f01be4cbea6e399bce609decceac7e0b411bd9ed38cf177cd2bf",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xe8dd8faaf0bbd00aaf2c5eae481bfce668e5adef445bb9bc81fef995542c3f2d",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc115a7dceeaf591c8da3ef4cf9ecfcbccba77585bae56b755baefa714cdaa9bd",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xa302c71ef0d1d479ebbcaff6bbc86146a26ba05c65ba97ee915a5f62d30907c1",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xd1febbfd8d3c980ff369e62f8eba9edebccfeff12ca1eebe3777908e1c3e7cf8",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc4d67ec0a5cb398e8cdc9f5bedff51ff63f6ff505a25c5a99616062131f7b402",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x602f39edfd6c713ee18aebe55d4e1f838cba979fb4d0f9daa6aebcaadae7e1c9",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xcb30cbb18b1d15a6eda00dcf64ecd04f9e64fbcc7e2abbbe2f3af1d44cbddc9b",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x5de6f3462cc76e97abe877acbfc2ef4ced68e47dfa7a0255fea2fbbe28b7f70f",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xb92ff73d27cd9febda3ca62bd3aec38ea609cd94b7fabefa5a0e9bcebede9f6a",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xcb2b40b1691ffab7ce472d1d7ed04c4f3ac1d597f01abc1beafefea4ea470c4c",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x9b4a523e1d91954d31fcfb18fdc28a0a7af6c45ac73b9cbbcceebcafe980d510",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x8d90b7cadf1a5eaec001fee70632cf151fdcdda1c590bdd1e61dfd0ce3219791",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xa65c0cbaef18a5a86aafe44ec6932ec0eaab647fbcce905cff1a125f5bfe282d",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x09f36aef4f0efec0de56cbaa8ae4ad71ac820c3f6d649eb9d8fd3492ac0a83f3",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xeefdce15fc4add6cccf53dfa37fbdfcba8f2cae454cb2ca433e26a8d396ae4ab",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc0d9d291fb49f4fe3b2c6cb44a8210d68cc727d1ddc8dac22a26cc9c3f5a5f4a",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x7b77defcb1fd1c81e1cbfff38949852bfe0fb0eb8385c68d26bf9c2c6dece380",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x0f6fcf8e8a99bd10843445bebec6aea5a8e5976451fbac1d351c24f9d57ef96f",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc25ba8fee461fef1c5ad85fef26acffddaa7b2ab5c91bd3fa8a4aada79dd8bda",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x0afaefc59d19efc6eebbbfdfbe9d5db87de7d50f8ce2023850770dd434b567cc",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x836bb03af64f04d0fac574fab9a2c7e4a1bfbd2fb0179e5bfa1198a2d58ecccb",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xdbe59ca8dfcebc17b899f5cbc4c2abad9a2dcaa85bbcc2bbf92865a66cbcacda",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x6ccdfaaea2bb1ea2f4b376daec0645c3f3567682ad2f8fbd9beac4abb0489dd3",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xd2bd2b8f3ede84cb8f9b8af6901f8f0a88cd1d7c41ecffd8dde67dcb9521f15a",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x1df8ef7ea6cc90dfc2fb7f412e7d5a4ae8dab3e538f8df9edbbe41ceac40f8ac",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xdfad57f13d737cfecf50dbbb922efcf97fb33c51fa4f9f967beadc892fe3fa5b",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x279afc0e2b7a24cbacc4f1dda9ec763ae6b5124da293dab544cfc74e51d6c64e",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xdfccdb4d1365e4b3fb419adf6badc7b3886beb2bad2ab9b60872b2dccbc3aab1",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xbd3ffbda8bc036a0d51abbc8db61ea97812ed7e169ef7efbac1f66f38a45e2fb",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x79ed1a5a0b585ef0e9ef59439bbc3142e9c524ff95bcaecfa06ebb0faca3f7df",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x6e40ee4bfcb1be77b18e127d75a815dbfafb3548857eeca6dce730daaa8e4fd1",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xbedff07e874becb31dfb022ba6ed6f626cae74e7f8e9efb3752d1048edbaeb1f",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x744b70a65c6c01a262400fe6a82a5cfbb2e61249dccbc2cfc8d6e19ac878fd06",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xcbb757edec8e19bc2dffdcaed2bd5acbca30ce97de34f6b3cb642edf8e8afc85",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xdc32ad57beaaaae782ecc11344a1e2308bcdad834635dd22fca0c2cb3ca2aabe",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x60abf4ef24dc6b4ec1ae1ecb0a2a8f7913b11f07db0e74abe4c5a3fadd35ef3e",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xf3f8aeeb4b3efe42ef6c53403ece1cc6afcf7b677ce1cbe8fadf71abffd00227",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xffbfc0fd2585fdfbeff9ceb72e0aa48f6bfd1abbd585dcab31dcc390b4fea5fe",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xd2fae3cc087239f1ecad98e955a4e1ef4bfc1dad7ebb2d78643ecf4351bfcbfc",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xf8b749a53cffb6beb5b6f1ba7bfd91cf98b3ec7dd12d4dcfe75f1de7b04e6cff",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xe25fc5f8d3b25cbe560e6925b670225a8eb4a9d12ce0345db4b160d2dace3077",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xac2534fcbef95e4ffc7c83defcc85dcde846aeeb7ef0542ade15a6e4edc6a32f",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x785efbe723138c23108bafd119fc3f99fcdd621c4320fb8c43d82aeda3effc59",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x5ab36efd957af3eec90a4cdcf72ba463f10efc2cef2cf4170211c26a2adf5e26",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x74e2aebac39ec6b27ca0ef2b238994f49ee9489df1e0dabe1d69ee9dfd9b1fa0",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xcbf5c97e0e2112af0d13d4f4eadf0572f15eae16b1f6d1c355b6db5eac3bdc0c",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc9ab29514391dbadf0ba35a3eef00fc5d14d3a242d3b9564b2bdbb3b1dbacd85",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x1376febf8afe5ffecefe1902cb28f8b7ef7eeafeeb5f3c5e37b9afd196eaec67",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xb90b7c6faccfe4b4f0da0ddae7cedcfc5e5d09de2e496ab4fe7b106f90f1ceaa",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xb8dfee8b8ccaecb2b0dbdf41e956e98edd2a05deffc533e49df27afdc5cc7a6c",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x2f25d6fc8e8e2af8dc0beb1ef3aa28fdb2db6a9705bdcbdbd01ce7cabfeeacfc",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xe46abcbb580a28cdbf7c01d740aaefbb5ada79bd80abdce7bbe15de199cfdfe0",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xecb78eb074b81ade820f74a97da3baa8b33cbcafeedc3314feacc60cc2d65d09",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x888ad49ffbc6fda307f67c5abc14a1ccecbaadaafde0dccbe274bbb3ebc4ed34",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xe6aee5027f5abe06fe7a819067caff8ee5dbb76c8c6c3c4fdfa11fa7f6ea92d6",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xafafa9f70deba03746f3cccbbc76c1f1df8e4a220afadc55ae8bce4dadfbc05f",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xc6f9da2b1ecec198b4eecb97fa453bccdd4aa1805303bd9bbad6cafbf02732fe",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x5e66eab19703dac6fc85f07072241fabfa5fe9d161ae8d16ea9a2addee4b8a7c",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0xabe72e623a6baa5f8f0b1ae4bdac8cdeafd1ecc5878b9edcbc80ac61020f0e83",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x271ec8d6eb55a2ed2a5c97ceceedef59c2eee5ea2eccd3cbfec455efa45578b3",
+            "balance": "0"
+          },
+          {
+            "privateKey": "0x2b8aabcf28334eed82ea8c6e4f18acffeec9e32cd8ed7cbd3decba271cb9c4c4",
+            "balance": "0"
+          }
+        ],
+        "loggingEnabled": false,
+        "gasMultiplier": 1,
+        "minGasPrice": "00",
+        "gas": 12000000,
+        "initialDate": "2023-04-02T07:39:32.268Z"
+      },
+      "localhost": {
+        "accounts": "remote",
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "http://127.0.0.1:8545"
+      },
+      "dev": {
+        "accounts": [
+          "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d",
+          "0x4d5db4107d237df6a3d58ee5f70ae63d73d7658d4026f2eefd2f204c81682cb7",
+          "0xdb365510f28a6e941fd934bc135b4ef6f0dbe47f72703be4652e02ecac1cd166",
+          "0x8d4bbf5cbd7fa3fbd24933577d17c24c89960248e49cb0ab4b192665644ee3dc",
+          "0xea9c10155067944a7adb3ae3359909c2add3b3d32d0af97a8cd0ab9de5fcf7df",
+          "0x9a1523de89d90a65d85ca9e8241b278ed578c9cb0fbe07b3a75549d3c48ca9f5",
+          "0xeda04e651560aef930cca429a4e141988a5e2fceed2930e0cba72148f4bffcd4",
+          "0x570da534df8f90a42f4625be9e6171e229cc63dfa51f10e9b2249bf28bb637b3",
+          "0x2fce9750c12ecfeaf6b9d53862721c84c3d93cbd7c22b1e2a961b454abb91910",
+          "0x1fc541560d17aefd5bd28efc67645b75810f4db2306c744fb610468ec6338b4b",
+          "0x9526ab29e63a16e0e18d3e6ffa04c4aafcec0715ea822da9843cf77192155b66",
+          "0x9cce3dbed720fe29ddbe52da244d2a9b3e7d141b2bfccfdc4199a0496d44db08",
+          "0x060522f9cd129b3632ffbf45f79ca3e6a44d8a5c26b4522255f749ecf8f3ccc8",
+          "0xf1e7a8412ef2725d461971e0f91b627d24b99ee914d5362df547c9fe3a3d8b94",
+          "0xe2f82713e082b8ad0a16e8b7a921611e20f590835a508e60edc89487db444651",
+          "0xdcca704679942303dc427897c52d3079fc968ba5ea839ab38862f9cc78ab0169",
+          "0xbe740f1ee1cc7df9973a216698f0e6bf1004e57f951e00bf1664c0c7d35472bc",
+          "0x3c55818e99e4f262c1a803a7faaf302482c45ac75126ec671866e9b53408e4e2",
+          "0x4aad37959dd1ce1975f15c434057553d40792c348547e03b56d241e11f01c06e",
+          "0xdee7bacc5f5cbc759e4b28c1429e78783da199acb0f820ad8f58e2c18440b08c",
+          "0x63c56fa6b7377441fc1b34423da894401cac327b2830b81ca40e93b0072b22ed",
+          "0x5990f0372e82e99e7fda7eff747abeceb48699f3be88998afeb7cef6c3f08f82",
+          "0xbb2f9ca49137a77e9c8ae252a797519601d5e52ddb1606e2c2fa4ac144dfdeeb",
+          "0x414af0764f490fc4a6129e3aeae773ad261c0a504d7eb2a620d14e0006578469",
+          "0x7e3fc8343da7b4eb2e35f6199e9e4a3c057f604bf7d48efe6c035ecc09a32404",
+          "0xb81349d685da19837b98af0063c85cca723acb432d9e7c771a1c07aa23497390",
+          "0x514b5a861b3a29d8e76b1c45e15ebf84ad873f047b498287dd9422e9c21ea547",
+          "0xd07d7e7e75c37b1a9f72b43d093cab33db88ccb3f151b41c697ed3a5f59f63f9",
+          "0x7a5102bf8155079ff5ce50eae99ec1298eff831c2610d3ed3d53383c197e55c8",
+          "0x8f9b98b3289d3de779bec07e340db861ca3583d36a21f1fcf0021a646d438508",
+          "0x7b355faa077588b3178a3223635cbdc27197f6caedfd118edafb49a06bc247e6",
+          "0x56f5115248a21f42b2d8193f271ee2d43fd395184e2988673e27be4260afb910",
+          "0x97fd6112821272c1bf310e8cf0bf7eb713bf68d56b175aab06750a2a20ace805",
+          "0xa9671a289472f12f981f73d1d029591462a86d7bfe684949eb594d3848698430",
+          "0x968ec9cf3e525aa6bb4d68d033237af08ad5dd0e9e01fc3b75b65abea30b42a5",
+          "0xab62c5537320a19183ccccbec231114d01276213630500eaf96c8224a2e760a2",
+          "0xa7cb496d0a79e6c3e16c0b8d76019ac4366c84f1e5894daaf16c8c331a24d358",
+          "0x814a960f54f7d31709fefd0158f6ea5cb2012fb0d6f3de6fe7e559f91858b319",
+          "0x4fb75b58048d0f1d32af02901f4421c45b90f58f9caa0452cb3137a41700ca95",
+          "0xb25390e742cb3b465e73c7969a352a43eb0214a422e51311b75e116915c5f181",
+          "0xb68d030d2fb07ce286d2dbae4b2f688ab9a8886ab39da7a643ad8c052b34b89b",
+          "0x1c1454560a34dbf236d778e1e30a1cf568fbf45654aec549b664a78677c7cbca",
+          "0xea3a885bd9f720da94c4962b44152fbd01c0f4ce5d89fff556496557848046fc",
+          "0xec65297934e069b0ae49917ef4ed926173838d14bc933c4da7ab60aeaac75bd9",
+          "0x409758ac8ea71efc1371a72f164fd70180812353323ebccf6782688ca510a4ba",
+          "0x088c24895b2223a432e5a69c76be0d02b7d40b4dd701efd292e7f1c4c263d2e2",
+          "0x9ea778c10c3a1cdd95d7eab54cab3c2748e984f65d9c3284e3b79862a18e082e",
+          "0xd289a4c75e81145567d4be49afba50a7a89c3e28b0d0f4974ae56c409fd7a14c",
+          "0xc97f09ad1141c27e44b0e9cc92be65446440c7f5f94a2cb6510f91f9b1392836",
+          "0x71e0685e363165ef3a5154c31ca9283ce55ea560194e440ec8e231aeb65fe5f9",
+          "0x9a8039d8fbfa5f952c09852651261b5f06b76ba58c993be196080b2f4c24aaf1",
+          "0x617cb9349317b1c845942bf1c9d25a9426ba3563508dc957848ad378340f3fce",
+          "0xc46e08d38fdc462a538f8d685a07bb044117ebed304f6db99a30d90ae08a57b1",
+          "0x2bca91536309d625a69ed7305999e3124268a00828b2b00ed445a5b755646adb",
+          "0x2269199c27931bd9edaec062dd3ef5bd77167f3c787b6dc9addc235c26838773",
+          "0x19af1ff1749e34e0acf56df45b19790202a529ec4d280349aa6bf8ca6c16d9c7",
+          "0x79f7d5c7bf95a8d65db3def945567cce083ec7ae334b654c5317070894de97e0",
+          "0xf8f439f8ddfac00f0046264a9482c3890753fc5ec4eef95c3494fcf202c0f06b",
+          "0xfb5b33ff6f61bb1a097bde539c550c23df82950921357d847b390184d0a1c223",
+          "0xcc440b1fbaca17a1fae60f054c0ef8891683391de03acb9d0d5a27d3fba9aa14",
+          "0xbc981f9139892d44069dd30fe16b5d8f4319a51192b47e1581798d00ee0481bc",
+          "0x57d336427517aa1eb09661e8073a6ad3a7ac007512d6e0b2af0296b747d5a9de",
+          "0x5d437f40557b11a3440acf97aba361cd8b94c8a0cae61316554aea0c3a4c63ef",
+          "0x2d318d129f98f3dc37be224ba05da167902e6ab06f7ce5bc8eb2611e1a3f6f96",
+          "0xa6608167a74fdcc59cbe0972d692744c8bc2cc992be8bd0e6fe5ad0033841f1d",
+          "0x9257112003dd16187c52f080a09d40c4b24bf801baa19439be509011631f3e95",
+          "0xdb24d16820c30684116b6d69a65a74a419f1f8773f202dd9d4f432cc5e6ac7fc",
+          "0x3e2268143f3bad5a8bb05d7d667ba4314a76b83201400e5dc589978b33c4454a",
+          "0xb47725dee77a8b7dd0478f6d994475d3ded344b6763a5399efd0f0269e3ec8da",
+          "0xa746c3a06287ea87c5659003cd13ea889c52d37d0a73a07e94f6c97ec3c4e613",
+          "0x4b78dbb60c98333a70e18b9b7961b4ef1fb0c5f673d64b1879e5fef403c403b4",
+          "0xca024b8cbae75aa20b0cc46eecfadc2fa439c5e0c03ae70b6c3bf06ec9420f44",
+          "0x04637e7aad012bbea92b570f997496e132b8c370cbd1f0ac9774d2d4238529cc",
+          "0x31611d8d2299c80b3a07224bcc12fa7923a2b1d6efd437244a9354edbe5a8717",
+          "0xbe838dcf85526ffc27ab4428506a5b9b5e74c054f711bc3280a48f4541796ac0",
+          "0x80543529b254c50e016ed3b73a9ab0551b22533eaa226c30a8857f020243631c",
+          "0x03a65c99c9c0afca5099bbb5467abb0b202c6ea8ec8e30d02e9a34da24173acf",
+          "0x6e27b1d23218f3f12f37788b67b872c47400e1e6717cd441e86c8d5f9a24ac19",
+          "0xbedeb4f4a25c2cb6b68c98809b7fa6391e85dd089e3e0dc0c5da05dae13a9068",
+          "0xba7d08a20e371c7c9e1f69de533799b7c3cacbfe90881612a0b46e0e13b5dbe9",
+          "0x8b355fa5415c168ee2d6eb9e390ab08c956130e827a449fcda8c13c1c5accc42",
+          "0xf1533ea195b77085d3201fb3b3637126c3e131e7d7db7c25347784e48507dd20",
+          "0xa3de9c32c68c1a2453df2591581b3d01eb083cd67e5a4804ecf144c6f45a80ae",
+          "0xfb6172821225a42139fbd3b22801ae1223603604712f494bd7dadb38418eddd3",
+          "0x28fa8e008c75d9bc8037f49b24bc3331ac10b04a6286f607cda20c4fe22772ab",
+          "0x26a4cb7809375ae855fc8a62ae3c83bc6cf1b1225b65f5b086ee74562d8c41ac",
+          "0x427c5984ba2059e8e07707860a7436f4a2ed7dc468f35943c869c966959b5e29",
+          "0xddddcef8ff8b7f0c5c9d12841eb4ba7dfe30b49d0da35cce4012677d20fae02b",
+          "0x014f174e4df0470b334f99cdcdd3d5014e6a1f077b4e476776f9025028cdfe23",
+          "0x74c1bd13f7d6d9b574d5d8a139ad17fe961d19aee2a244a14d4397a35171f4ba",
+          "0x5be5c24cd8f302b31ae54361b38f77799225ba9f690562a29995f2eff8086df5",
+          "0xbbd8e99f3aaf9af38c6e872077d2597a7043bb2b78c77982a76f3a3d089fd23c",
+          "0x5273d749d9f994a106c239fdd96fb35fc8025e9131a088c58e212c57b7037358",
+          "0x86d7198a69cb15f10700dcad0815375fcacf7689956a8377c1a12d81e2cc3ff9",
+          "0xb991d95ea100ee10f93a01e8fdcb24d68f7070f9a0c15081d6e2aff9179364d1",
+          "0x1525ff8570f267f9d20547def522a8b973bbccfc6e713fefd01fa910fc934cc3",
+          "0x56134b1fa88ab20edbbc34360b202a42fc2b3ba4dea73ba9d9f67ba072ba6678",
+          "0x32889ff70650087fc5f10d6ab998da9c53195ede85e5cae0fbfed95b9c78d70e",
+          "0x2a03c352bc3094d2657e245a6bf53e4b1155808649cbd6055e4547b734be41c7",
+          "0x1ecf4b94426f06016897ae1ca0bc93b50ac4e7a30af03aca25f502942a4266da"
+        ],
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "http://localhost:8545"
+      },
+      "ropsten": {
+        "accounts": [
+          "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"
+        ],
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "https://ropsten.infura.io/v3/ad9cef41c9c844a7b54d10be24d416e5"
+      },
+      "rinkeby": {
+        "accounts": [
+          "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"
+        ],
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "https://rinkeby.infura.io/v3/ad9cef41c9c844a7b54d10be24d416e5"
+      },
+      "goerli": {
+        "accounts": [
+          "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"
+        ],
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "https://goerli.infura.io/v3/ad9cef41c9c844a7b54d10be24d416e5"
+      },
+      "kovan": {
+        "accounts": [
+          "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"
+        ],
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "https://kovan.infura.io/v3/ad9cef41c9c844a7b54d10be24d416e5"
+      },
+      "mainnet": {
+        "accounts": [
+          "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"
+        ],
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "https://mainnet.infura.io/v3/ad9cef41c9c844a7b54d10be24d416e5"
+      },
+      "kiln": {
+        "accounts": [
+          "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"
+        ],
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "https://rpc.kiln.themerge.dev"
+      },
+      "forkedMainnet": {
+        "accounts": "remote",
+        "gas": "auto",
+        "gasPrice": "auto",
+        "gasMultiplier": 1,
+        "httpHeaders": {},
+        "timeout": 20000,
+        "url": "http://localhost:8546"
+      }
+    },
+    "paths": {
+      "artifacts": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/contracts/artifacts",
+      "cache": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/contracts/cache",
+      "root": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/lib-ethers",
+      "configFile": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/lib-ethers/hardhat.config.ts",
+      "sources": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/lib-ethers/contracts",
+      "tests": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/lib-ethers/test"
+    },
+    "defaultNetwork": "hardhat",
+    "solidity": {
+      "compilers": [
+        {
+          "version": "0.7.3",
+          "settings": {
+            "optimizer": {
+              "enabled": false,
+              "runs": 200
+            },
+            "outputSelection": {
+              "*": {
+                "*": [
+                  "abi",
+                  "evm.bytecode",
+                  "evm.deployedBytecode",
+                  "evm.methodIdentifiers"
+                ],
+                "": [
+                  "ast"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "overrides": {}
+    },
+    "mocha": {
+      "timeout": 20000
+    }
+  },
+  "hardhatArguments": {
+    "network": "forkedMainnet",
+    "showStackTraces": false,
+    "version": false,
+    "help": false,
+    "emoji": false,
+    "verbose": false
+  },
+  "tasks": {
+    "check": {
+      "name": "check",
+      "isSubtask": false,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Check whatever you need"
+    },
+    "clean:global": {
+      "name": "clean:global",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "clean": {
+      "name": "clean",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "global": {
+          "name": "global",
+          "defaultValue": false,
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Clear the global cache",
+          "isFlag": true,
+          "isOptional": true,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Clears the cache and deletes all artifacts"
+    },
+    "compile:solidity:get-source-paths": {
+      "name": "compile:solidity:get-source-paths",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:get-source-names": {
+      "name": "compile:solidity:get-source-names",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "sourcePaths": {
+          "name": "sourcePaths",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:read-file": {
+      "name": "compile:solidity:read-file",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "absolutePath": {
+          "name": "absolutePath",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:get-dependency-graph": {
+      "name": "compile:solidity:get-dependency-graph",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "sourceNames": {
+          "name": "sourceNames",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solidityFilesCache": {
+          "name": "solidityFilesCache",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:get-compilation-job-for-file": {
+      "name": "compile:solidity:get-compilation-job-for-file",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "dependencyGraph": {
+          "name": "dependencyGraph",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "file": {
+          "name": "file",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solidityFilesCache": {
+          "name": "solidityFilesCache",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:get-compilation-jobs": {
+      "name": "compile:solidity:get-compilation-jobs",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "dependencyGraph": {
+          "name": "dependencyGraph",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solidityFilesCache": {
+          "name": "solidityFilesCache",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:filter-compilation-jobs": {
+      "name": "compile:solidity:filter-compilation-jobs",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "force": {
+          "name": "force",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solidityFilesCache": {
+          "name": "solidityFilesCache",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:merge-compilation-jobs": {
+      "name": "compile:solidity:merge-compilation-jobs",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:log:nothing-to-compile": {
+      "name": "compile:solidity:log:nothing-to-compile",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:compile-jobs": {
+      "name": "compile:solidity:compile-jobs",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:get-compiler-input": {
+      "name": "compile:solidity:get-compiler-input",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJob": {
+          "name": "compilationJob",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:log:download-compiler-start": {
+      "name": "compile:solidity:log:download-compiler-start",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "isCompilerDownloaded": {
+          "name": "isCompilerDownloaded",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solcVersion": {
+          "name": "solcVersion",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:log:download-compiler-end": {
+      "name": "compile:solidity:log:download-compiler-end",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "isCompilerDownloaded": {
+          "name": "isCompilerDownloaded",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solcVersion": {
+          "name": "solcVersion",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:solc:get-build": {
+      "name": "compile:solidity:solc:get-build",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solcVersion": {
+          "name": "solcVersion",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:solcjs:run": {
+      "name": "compile:solidity:solcjs:run",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "input": {
+          "name": "input",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solcJsPath": {
+          "name": "solcJsPath",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:solc:run": {
+      "name": "compile:solidity:solc:run",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "input": {
+          "name": "input",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solcPath": {
+          "name": "solcPath",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:solc:compile": {
+      "name": "compile:solidity:solc:compile",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "input": {
+          "name": "input",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solcVersion": {
+          "name": "solcVersion",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJob": {
+          "name": "compilationJob",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobIndex": {
+          "name": "compilationJobIndex",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:compile": {
+      "name": "compile:solidity:compile",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:log:compilation-errors": {
+      "name": "compile:solidity:log:compilation-errors",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "output": {
+          "name": "output",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:check-errors": {
+      "name": "compile:solidity:check-errors",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "output": {
+          "name": "output",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:emit-artifacts": {
+      "name": "compile:solidity:emit-artifacts",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJob": {
+          "name": "compilationJob",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "input": {
+          "name": "input",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "output": {
+          "name": "output",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "solcBuild": {
+          "name": "solcBuild",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:get-artifact-from-compilation-output": {
+      "name": "compile:solidity:get-artifact-from-compilation-output",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "sourceName": {
+          "name": "sourceName",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "contractName": {
+          "name": "contractName",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "contractOutput": {
+          "name": "contractOutput",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:log:run-compiler-start": {
+      "name": "compile:solidity:log:run-compiler-start",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJob": {
+          "name": "compilationJob",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobIndex": {
+          "name": "compilationJobIndex",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:log:run-compiler-end": {
+      "name": "compile:solidity:log:run-compiler-end",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJob": {
+          "name": "compilationJob",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobIndex": {
+          "name": "compilationJobIndex",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "output": {
+          "name": "output",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:compile-job": {
+      "name": "compile:solidity:compile-job",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJob": {
+          "name": "compilationJob",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "compilationJobIndex": {
+          "name": "compilationJobIndex",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "emitsArtifacts": {
+          "name": "emitsArtifacts",
+          "defaultValue": true,
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:handle-compilation-jobs-failures": {
+      "name": "compile:solidity:handle-compilation-jobs-failures",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJobsCreationErrors": {
+          "name": "compilationJobsCreationErrors",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:get-compilation-jobs-failure-reasons": {
+      "name": "compile:solidity:get-compilation-jobs-failure-reasons",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJobsCreationErrors": {
+          "name": "compilationJobsCreationErrors",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity:log:compilation-result": {
+      "name": "compile:solidity:log:compilation-result",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "compilationJobs": {
+          "name": "compilationJobs",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:solidity": {
+      "name": "compile:solidity",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "force": {
+          "name": "force",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "type": {
+            "name": "boolean"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile:get-compilation-tasks": {
+      "name": "compile:get-compilation-tasks",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "compile": {
+      "name": "compile",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "force": {
+          "name": "force",
+          "defaultValue": false,
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Force compilation ignoring cache",
+          "isFlag": true,
+          "isOptional": true,
+          "isVariadic": false
+        },
+        "quiet": {
+          "name": "quiet",
+          "defaultValue": false,
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Makes the compilation process less verbose",
+          "isFlag": true,
+          "isOptional": true,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Compiles the entire project, building all artifacts"
+    },
+    "console": {
+      "name": "console",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "noCompile": {
+          "name": "noCompile",
+          "defaultValue": false,
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Don't compile before running this task",
+          "isFlag": true,
+          "isOptional": true,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Opens a hardhat console"
+    },
+    "flatten:get-flattened-sources": {
+      "name": "flatten:get-flattened-sources",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "files": {
+          "name": "files",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Returns all contracts and their dependencies flattened"
+    },
+    "flatten:get-dependency-graph": {
+      "name": "flatten:get-dependency-graph",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "files": {
+          "name": "files",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "flatten": {
+      "name": "flatten",
+      "isSubtask": false,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [
+        {
+          "name": "files",
+          "type": {
+            "name": "inputFile"
+          },
+          "description": "The files to flatten",
+          "isVariadic": true,
+          "isOptional": true,
+          "isFlag": false
+        }
+      ],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": true,
+      "_hasOptionalPositionalParam": true,
+      "_description": "Flattens and prints contracts and their dependencies"
+    },
+    "help": {
+      "name": "help",
+      "isSubtask": false,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [
+        {
+          "name": "task",
+          "type": {
+            "name": "string"
+          },
+          "description": "An optional task to print more info about",
+          "isVariadic": false,
+          "isOptional": true,
+          "isFlag": false
+        }
+      ],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": true,
+      "_description": "Prints this message"
+    },
+    "node:get-provider": {
+      "name": "node:get-provider",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "forkUrl": {
+          "name": "forkUrl",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "forkBlockNumber": {
+          "name": "forkBlockNumber",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "node:create-server": {
+      "name": "node:create-server",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "hostname": {
+          "name": "hostname",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "port": {
+          "name": "port",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "provider": {
+          "name": "provider",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "node:server-created": {
+      "name": "node:server-created",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "hostname": {
+          "name": "hostname",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "port": {
+          "name": "port",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "provider": {
+          "name": "provider",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "server": {
+          "name": "server",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "node:server-ready": {
+      "name": "node:server-ready",
+      "isSubtask": true,
+      "paramDefinitions": {
+        "address": {
+          "name": "address",
+          "type": {
+            "name": "string"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "port": {
+          "name": "port",
+          "type": {
+            "name": "int"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "provider": {
+          "name": "provider",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "server": {
+          "name": "server",
+          "type": {
+            "name": "any"
+          },
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "node": {
+      "name": "node",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "hostname": {
+          "name": "hostname",
+          "type": {
+            "name": "string"
+          },
+          "description": "The host to which to bind to for new connections (Defaults to 127.0.0.1 running locally, and 0.0.0.0 in Docker)",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "port": {
+          "name": "port",
+          "defaultValue": 8545,
+          "type": {
+            "name": "int"
+          },
+          "description": "The port on which to listen for new connections",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "fork": {
+          "name": "fork",
+          "type": {
+            "name": "string"
+          },
+          "description": "The URL of the JSON-RPC server to fork from",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "forkBlockNumber": {
+          "name": "forkBlockNumber",
+          "type": {
+            "name": "int"
+          },
+          "description": "The block number to fork from",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Starts a JSON-RPC server on top of Hardhat Network"
+    },
+    "run": {
+      "name": "run",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "noCompile": {
+          "name": "noCompile",
+          "defaultValue": false,
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Don't compile before running this task",
+          "isFlag": true,
+          "isOptional": true,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [
+        {
+          "name": "script",
+          "type": {
+            "name": "string"
+          },
+          "description": "A js file to be run within hardhat's environment",
+          "isVariadic": false,
+          "isOptional": false,
+          "isFlag": false
+        }
+      ],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Runs a user-defined script after compiling the project"
+    },
+    "test:get-test-files": {
+      "name": "test:get-test-files",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [
+        {
+          "name": "testFiles",
+          "defaultValue": [],
+          "type": {
+            "name": "string"
+          },
+          "description": "An optional list of files to test",
+          "isVariadic": true,
+          "isOptional": true,
+          "isFlag": false
+        }
+      ],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": true,
+      "_hasOptionalPositionalParam": true
+    },
+    "test:setup-test-environment": {
+      "name": "test:setup-test-environment",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "test:run-mocha-tests": {
+      "name": "test:run-mocha-tests",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [
+        {
+          "name": "testFiles",
+          "defaultValue": [],
+          "type": {
+            "name": "string"
+          },
+          "description": "An optional list of files to test",
+          "isVariadic": true,
+          "isOptional": true,
+          "isFlag": false
+        }
+      ],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": true,
+      "_hasOptionalPositionalParam": true
+    },
+    "test:show-fork-recommendations": {
+      "name": "test:show-fork-recommendations",
+      "isSubtask": true,
+      "paramDefinitions": {},
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false
+    },
+    "test": {
+      "name": "test",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "noCompile": {
+          "name": "noCompile",
+          "defaultValue": false,
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Don't compile before running this task",
+          "isFlag": true,
+          "isOptional": true,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [
+        {
+          "name": "testFiles",
+          "defaultValue": [],
+          "type": {
+            "name": "string"
+          },
+          "description": "An optional list of files to test",
+          "isVariadic": true,
+          "isOptional": true,
+          "isFlag": false
+        }
+      ],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": true,
+      "_hasOptionalPositionalParam": true,
+      "_description": "Runs mocha tests"
+    },
+    "deploy": {
+      "name": "deploy",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "channel": {
+          "name": "channel",
+          "defaultValue": "default",
+          "type": {
+            "name": "string"
+          },
+          "description": "Deployment channel to deploy into",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "gasPrice": {
+          "name": "gasPrice",
+          "type": {
+            "name": "float"
+          },
+          "description": "Price to pay for 1 gas [Gwei]",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "useRealPriceFeed": {
+          "name": "useRealPriceFeed",
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Deploy the production version of PriceFeed and connect it to Chainlink",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "createUniswapPair": {
+          "name": "createUniswapPair",
+          "type": {
+            "name": "boolean"
+          },
+          "description": "Create a real Uniswap v2 WETH-LUSD pair instead of a mock ERC20 token",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Deploys the contracts to the network"
+    },
+    "setStorageSlotIndex": {
+      "name": "setStorageSlotIndex",
+      "isSubtask": false,
+      "paramDefinitions": {
+        "contractAddress": {
+          "name": "contractAddress",
+          "type": {
+            "name": "string"
+          },
+          "description": "Address of the contract",
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "walletAddress": {
+          "name": "walletAddress",
+          "type": {
+            "name": "string"
+          },
+          "description": "Address of the wallet balance to set",
+          "isOptional": false,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "slotIndex": {
+          "name": "slotIndex",
+          "type": {
+            "name": "string"
+          },
+          "description": "Index of slot to set",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        },
+        "value": {
+          "name": "value",
+          "type": {
+            "name": "string"
+          },
+          "description": "Value of slot to set (assumed to be a number)",
+          "isOptional": true,
+          "isFlag": false,
+          "isVariadic": false
+        }
+      },
+      "positionalParamDefinitions": [],
+      "_positionalParamNames": {},
+      "_hasVariadicParam": false,
+      "_hasOptionalPositionalParam": false,
+      "_description": "Returns the index of the balanceOf storage slot in an ERC20"
+    }
+  },
+  "artifacts": {
+    "_artifactsPath": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/contracts/artifacts",
+    "_buildInfosGlob": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/contracts/artifacts/build-info/**/*.json",
+    "_dbgsGlob": "/home/afa/Documents/code/others/PROJECTS/ETHSAMBA/mainnet_VRL/packages/contracts/artifacts/**/*.dbg.json"
+  },
+  "network": {
+    "name": "forkedMainnet",
+    "config": {
+      "accounts": "remote",
+      "gas": "auto",
+      "gasPrice": "auto",
+      "gasMultiplier": 1,
+      "httpHeaders": {},
+      "timeout": 20000,
+      "url": "http://localhost:8546"
+    },
+    "provider": {
+      "_wrapped": {
+        "_wrapped": {
+          "_wrapped": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_wrappedProvider": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_gasMultiplier": 1
+        },
+        "_wrappedProvider": {
+          "_wrapped": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_wrappedProvider": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_gasMultiplier": 1
+        }
+      },
+      "_provider": {
+        "_wrapped": {
+          "_wrapped": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_wrappedProvider": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_gasMultiplier": 1
+        },
+        "_wrappedProvider": {
+          "_wrapped": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_wrappedProvider": {
+            "_wrapped": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            },
+            "_wrappedProvider": {
+              "_wrapped": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_wrappedProvider": {
+                "_events": {},
+                "_eventsCount": 0,
+                "_url": "http://localhost:8546",
+                "_networkName": "forkedMainnet",
+                "_extraHeaders": {},
+                "_timeout": 20000,
+                "_nextRequestId": 1
+              },
+              "_gasMultiplier": 5
+            }
+          },
+          "_gasMultiplier": 1
+        }
+      }
+    }
+  },
+  "_extenders": [
+    null,
+    null
+  ],
+  "ethers": {
+    "providers": {},
+    "constants": {
+      "AddressZero": "0x0000000000000000000000000000000000000000",
+      "NegativeOne": {
+        "type": "BigNumber",
+        "hex": "-0x01"
+      },
+      "Zero": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "One": {
+        "type": "BigNumber",
+        "hex": "0x01"
+      },
+      "Two": {
+        "type": "BigNumber",
+        "hex": "0x02"
+      },
+      "WeiPerEther": {
+        "type": "BigNumber",
+        "hex": "0x0de0b6b3a7640000"
+      },
+      "MaxUint256": {
+        "type": "BigNumber",
+        "hex": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      },
+      "MinInt256": {
+        "type": "BigNumber",
+        "hex": "-0x8000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "MaxInt256": {
+        "type": "BigNumber",
+        "hex": "0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      },
+      "HashZero": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "EtherSymbol": "Ξ"
+    },
+    "errors": {
+      "UNKNOWN_ERROR": "UNKNOWN_ERROR",
+      "NOT_IMPLEMENTED": "NOT_IMPLEMENTED",
+      "UNSUPPORTED_OPERATION": "UNSUPPORTED_OPERATION",
+      "NETWORK_ERROR": "NETWORK_ERROR",
+      "SERVER_ERROR": "SERVER_ERROR",
+      "TIMEOUT": "TIMEOUT",
+      "BUFFER_OVERRUN": "BUFFER_OVERRUN",
+      "NUMERIC_FAULT": "NUMERIC_FAULT",
+      "MISSING_NEW": "MISSING_NEW",
+      "INVALID_ARGUMENT": "INVALID_ARGUMENT",
+      "MISSING_ARGUMENT": "MISSING_ARGUMENT",
+      "UNEXPECTED_ARGUMENT": "UNEXPECTED_ARGUMENT",
+      "CALL_EXCEPTION": "CALL_EXCEPTION",
+      "INSUFFICIENT_FUNDS": "INSUFFICIENT_FUNDS",
+      "NONCE_EXPIRED": "NONCE_EXPIRED",
+      "REPLACEMENT_UNDERPRICED": "REPLACEMENT_UNDERPRICED",
+      "UNPREDICTABLE_GAS_LIMIT": "UNPREDICTABLE_GAS_LIMIT",
+      "TRANSACTION_REPLACED": "TRANSACTION_REPLACED"
+    },
+    "logger": {
+      "version": "ethers/5.4.3"
+    },
+    "utils": {
+      "defaultAbiCoder": {
+        "coerceFunc": null
+      },
+      "FormatTypes": {
+        "sighash": "sighash",
+        "minimal": "minimal",
+        "full": "full",
+        "json": "json"
+      },
+      "RLP": {},
+      "defaultPath": "m/44'/60'/0'/0/0",
+      "base58": {
+        "alphabet": "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz",
+        "base": 58,
+        "_alphabetMap": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4,
+          "6": 5,
+          "7": 6,
+          "8": 7,
+          "9": 8,
+          "A": 9,
+          "B": 10,
+          "C": 11,
+          "D": 12,
+          "E": 13,
+          "F": 14,
+          "G": 15,
+          "H": 16,
+          "J": 17,
+          "K": 18,
+          "L": 19,
+          "M": 20,
+          "N": 21,
+          "P": 22,
+          "Q": 23,
+          "R": 24,
+          "S": 25,
+          "T": 26,
+          "U": 27,
+          "V": 28,
+          "W": 29,
+          "X": 30,
+          "Y": 31,
+          "Z": 32,
+          "a": 33,
+          "b": 34,
+          "c": 35,
+          "d": 36,
+          "e": 37,
+          "f": 38,
+          "g": 39,
+          "h": 40,
+          "i": 41,
+          "j": 42,
+          "k": 43,
+          "m": 44,
+          "n": 45,
+          "o": 46,
+          "p": 47,
+          "q": 48,
+          "r": 49,
+          "s": 50,
+          "t": 51,
+          "u": 52,
+          "v": 53,
+          "w": 54,
+          "x": 55,
+          "y": 56,
+          "z": 57
+        },
+        "_leader": "1"
+      },
+      "base64": {},
+      "Utf8ErrorFuncs": {},
+      "TransactionTypes": {
+        "0": "legacy",
+        "1": "eip2930",
+        "2": "eip1559",
+        "legacy": 0,
+        "eip2930": 1,
+        "eip1559": 2
+      },
+      "SupportedAlgorithm": {
+        "sha256": "sha256",
+        "sha512": "sha512"
+      },
+      "UnicodeNormalizationForm": {
+        "current": "",
+        "NFC": "NFC",
+        "NFD": "NFD",
+        "NFKC": "NFKC",
+        "NFKD": "NFKD"
+      },
+      "Utf8ErrorReason": {
+        "UNEXPECTED_CONTINUE": "unexpected continuation byte",
+        "BAD_PREFIX": "bad codepoint prefix",
+        "OVERRUN": "string overrun",
+        "MISSING_CONTINUE": "missing continuation byte",
+        "OUT_OF_RANGE": "out of UTF-8 range",
+        "UTF16_SURROGATE": "UTF-16 surrogate",
+        "OVERLONG": "overlong representation"
+      }
+    },
+    "wordlists": {
+      "cz": {
+        "locale": "cz"
+      },
+      "en": {
+        "locale": "en"
+      },
+      "es": {
+        "locale": "es"
+      },
+      "fr": {
+        "locale": "fr"
+      },
+      "it": {
+        "locale": "it"
+      },
+      "ja": {
+        "locale": "ja"
+      },
+      "ko": {
+        "locale": "ko"
+      },
+      "zh": {
+        "locale": "zh_cn"
+      },
+      "zh_cn": {
+        "locale": "zh_cn"
+      },
+      "zh_tw": {
+        "locale": "zh_tw"
+      }
+    },
+    "version": "ethers/5.4.3",
+    "provider": "<WrappedHardhatProvider>"
+  }
+}
+USE REAL PRICE FEED false
+Deploying contracts...
+
+Deploying ActivePool ...
+Waiting for transaction 0xb3e4b4b6b45243539d89fa43eeedddd6ff9255606d3ca33a95505830d446008f ...
+{
+  contractAddress: '0x22E6EB4CeEcF020249b66259836bE00EFDd68Eb3',
+  blockNumber: 16233510,
+  gasUsed: 727168
+}
+
+Deploying BorrowerOperations ...
+Waiting for transaction 0xe49b39932a3d0d5cae2109e2b8eafec5c6e47620688b4a9f450a6c8669353993 ...
+{
+  contractAddress: '0x4F2e74C71a9b28690Bd879bC2e25D0c214Ab402f',
+  blockNumber: 16233511,
+  gasUsed: 3128016
+}
+
+Deploying TroveManager ...
+Waiting for transaction 0x4d1c3041edf8f2283aab06fd764b802a6e0d1db32d5b93d4c29df2588b99ae68 ...
+{
+  contractAddress: '0x92D9C3B763ec533867D8fD8ed989d02FdCC6bf96',
+  blockNumber: 16233512,
+  gasUsed: 5085067
+}
+
+Deploying CollSurplusPool ...
+Waiting for transaction 0x15d35814cac3cd03351526ad87e9e8014127e83b8315917c806c8b009b8487fc ...
+{
+  contractAddress: '0xb24cAB91956C3242453743F5247F87898E697c40',
+  blockNumber: 16233513,
+  gasUsed: 698750
+}
+
+Deploying CommunityIssuance ...
+Waiting for transaction 0x0e3c2a751e9616326679abae181f0ea484f77262fd8e96bde79780580a091201 ...
+{
+  contractAddress: '0x40f7a7e161da5D0E215Fce1e5EAE0d850C47C3aa',
+  blockNumber: 16233514,
+  gasUsed: 701775
+}
+
+Deploying DefaultPool ...
+Waiting for transaction 0x1876e79f87df5a54a15938db7cc2d9592fa95661f552e8cfb071dec32981e155 ...
+{
+  contractAddress: '0x26Fa64787A8255099776e2D6F8249972fD34D3eE',
+  blockNumber: 16233515,
+  gasUsed: 608488
+}
+
+Deploying HintHelpers ...
+Waiting for transaction 0x6305dc0bf58cabdecc8a0d0195213afed9a3d37b19d00c6ae4f1c8649fcac3c7 ...
+{
+  contractAddress: '0xAb343340Eb7AaCac50059778ba5bB63b7Cd374E2',
+  blockNumber: 16233516,
+  gasUsed: 1201860
+}
+
+Deploying LockupContractFactory ...
+Waiting for transaction 0x0a68ad3d4e958b6d01d2685b07cbcdc09b5b637dc311e386f90f1c60beebaa49 ...
+{
+  contractAddress: '0xb7Dd3EF709b63cDa2798677B09aE06CaE6C252E5',
+  blockNumber: 16233517,
+  gasUsed: 797858
+}
+
+Deploying LQTYStaking ...
+Waiting for transaction 0x4915aee45ab77ed63034176c78f55b12a4e4f2db09f260e5f831849cbe7a03f7 ...
+{
+  contractAddress: '0x0778Fb8f1a80852B2a3305133D0b9f3D78C0107d',
+  blockNumber: 16233518,
+  gasUsed: 1245432
+}
+
+Deploying PriceFeedTestnet ...
+Waiting for transaction 0xfc925d409f5e6ec2904c38b81a9874e375670a6183a04f9f427b61d2b557d81e ...
+{
+  contractAddress: '0x79458F5eBFf6AecA3A3F0fB6f423D9C682B47A61',
+  blockNumber: 16233519,
+  gasUsed: 134035
+}
+
+Deploying SortedTroves ...
+Waiting for transaction 0x5cdd37f3828320459594de38becda9c75dcfbe78f2cbdc86b143d2f3b9cafd28 ...
+{
+  contractAddress: '0xe7F76f8C7e484E1E300F302571fb36672a2d0DaA',
+  blockNumber: 16233520,
+  gasUsed: 1449526
+}
+
+Deploying StabilityPool ...
+Waiting for transaction 0x4be6af2e7812c1fa68b40392da93302c46a489e5a2097a9619273ac666b78b9f ...
+{
+  contractAddress: '0xAd42dd5791bF6Aa2e17e11ef39028B58DaAB35D2',
+  blockNumber: 16233521,
+  gasUsed: 3258882
+}
+
+Deploying GasPool ...
+Waiting for transaction 0xad528790be10a75ed8d5330c8f435c6541645f6c10cb8b14fdf37b668fb47d91 ...
+{
+  contractAddress: '0x7CC520B2aBa705a323B58dCd1ec34638cA75CB73',
+  blockNumber: 16233522,
+  gasUsed: 67066
+}
+
+Deploying Unipool ...
+Waiting for transaction 0x51d746297b6ed265490579d03e14ef13ae7c1b7b9554b61c2cd44262f10143d7 ...
+{
+  contractAddress: '0x17b9D0A8c8A1166cA0F17195FDD19dF074C75D73',
+  blockNumber: 16233523,
+  gasUsed: 1181362
+}
+
+Deploying LUSDToken ...
+Waiting for transaction 0xa1241ad6bd7a448d9f312d4997787819439874dd887b1fbff9db9fa934aa6636 ...
+{
+  contractAddress: '0x1f48026dC5Ce244Ad46280Fa45847235bb6aAB5c',
+  blockNumber: 16233524,
+  gasUsed: 1219359
+}
+
+Deploying LQTYToken ...
+Waiting for transaction 0xf5d396abc6131381869dad81f69afeee14eddb0e6ea2518342e9a1fddc7eb019 ...
+{
+  contractAddress: '0xA98b4E417e644CA7C20028d35DC428453e2287dC',
+  blockNumber: 16233525,
+  gasUsed: 1447923
+}
+
+Deploying MultiTroveGetter ...
+Waiting for transaction 0xdae4ef3c9d3c5dfaddbf9d7266c023bfa4aea1fd377e514177478f019be53337 ...
+{
+  contractAddress: '0x603997Af8d0D22D2ED7001097E2571d52225fac4',
+  blockNumber: 16233526,
+  gasUsed: 720638
+}
+
+Deploying ERC20Mock ...
+Waiting for transaction 0x8b7fdf617ac7b184a3d136c544947c2809c763e82838121e945bfe8e4246fccb ...
+{
+  contractAddress: '0xbf50A8537c4B5e81170e409D5F869c8dED488093',
+  blockNumber: 16233527,
+  gasUsed: 905187
+}
+
+Connecting contracts...
+Connected 1
+Connected 2
+Connected 3
+Connected 4
+Connected 5
+Connected 6
+Connected 7
+Connected 8
+Connected 9
+Connected 10
+Connected 11
+Connected 12
+
+{
+  chainId: 1,
+  version: '5305fc0f3c1e7b11d0a56aba0b8bef1bb672bdd7',
+  deploymentDate: 1671631246000,
+  bootstrapPeriod: 1209600,
+  totalStabilityPoolLQTYReward: '32000000',
+  liquidityMiningLQTYRewardRate: '0.257201646090534979',
+  _priceFeedIsTestnet: true,
+  _uniTokenIsMock: true,
+  _isDev: false,
+  startBlock: 16233510,
+  addresses: {
+    activePool: '0x22E6EB4CeEcF020249b66259836bE00EFDd68Eb3',
+    borrowerOperations: '0x4F2e74C71a9b28690Bd879bC2e25D0c214Ab402f',
+    troveManager: '0x92D9C3B763ec533867D8fD8ed989d02FdCC6bf96',
+    collSurplusPool: '0xb24cAB91956C3242453743F5247F87898E697c40',
+    communityIssuance: '0x40f7a7e161da5D0E215Fce1e5EAE0d850C47C3aa',
+    defaultPool: '0x26Fa64787A8255099776e2D6F8249972fD34D3eE',
+    hintHelpers: '0xAb343340Eb7AaCac50059778ba5bB63b7Cd374E2',
+    lockupContractFactory: '0xb7Dd3EF709b63cDa2798677B09aE06CaE6C252E5',
+    lqtyStaking: '0x0778Fb8f1a80852B2a3305133D0b9f3D78C0107d',
+    priceFeed: '0x79458F5eBFf6AecA3A3F0fB6f423D9C682B47A61',
+    sortedTroves: '0xe7F76f8C7e484E1E300F302571fb36672a2d0DaA',
+    stabilityPool: '0xAd42dd5791bF6Aa2e17e11ef39028B58DaAB35D2',
+    gasPool: '0x7CC520B2aBa705a323B58dCd1ec34638cA75CB73',
+    unipool: '0x17b9D0A8c8A1166cA0F17195FDD19dF074C75D73',
+    lusdToken: '0x1f48026dC5Ce244Ad46280Fa45847235bb6aAB5c',
+    lqtyToken: '0xA98b4E417e644CA7C20028d35DC428453e2287dC',
+    multiTroveGetter: '0x603997Af8d0D22D2ED7001097E2571d52225fac4',
+    uniToken: '0xbf50A8537c4B5e81170e409D5F869c8dED488093'
+  }
+}
+
+Done in 23.48s.

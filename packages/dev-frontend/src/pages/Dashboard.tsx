@@ -6,9 +6,12 @@ import { SystemStats } from "../components/SystemStats";
 import { PriceManager } from "../components/PriceManager";
 import { Staking } from "../components/Staking/Staking";
 import { BondsTable } from "../components/Bonds/BondsTable";
+import { Arthur } from "../components/Arthur";
 
 export const Dashboard: React.FC = () => (
-  <Container variant="columns">
+  <>
+    <Arthur title="test"></Arthur>
+    <Container variant="columns">
     <Container variant="left">
       <BondsTable />
       <Trove />
@@ -21,4 +24,6 @@ export const Dashboard: React.FC = () => (
       <PriceManager />
     </Container>
   </Container>
+  </>
+
 );

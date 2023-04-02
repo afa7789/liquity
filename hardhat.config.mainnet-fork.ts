@@ -1,4 +1,6 @@
 import { HardhatUserConfig } from "hardhat/config";
+// import config env
+import "dotenv/config";
 
 const alchemyApiKey = process.env.ALCHEMY_API_KEY;
 
