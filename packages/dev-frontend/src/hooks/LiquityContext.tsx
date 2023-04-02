@@ -72,11 +72,6 @@ export const LiquityProvider: React.FC<LiquityProviderProps> = ({
 
       if (isWebSocketAugmentedProvider(provider)) {
         const network = getNetwork(chainId);
-        console.log("chainId", chainId)
-        console.log("network", network)
-        if( chainId == 17) {
-          provider.openWebSocket(`ws://localhost:8546`, chainId);
-        }
 
         if (
           network.name &&
