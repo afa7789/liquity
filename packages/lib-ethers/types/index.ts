@@ -553,7 +553,6 @@ interface PriceFeedCalls {
   TIMEOUT(_overrides?: CallOverrides): Promise<BigNumber>;
   isOwner(_overrides?: CallOverrides): Promise<boolean>;
   lastGoodPrice(_overrides?: CallOverrides): Promise<BigNumber>;
-  lastGoodPrice_BRL(_overrides?: CallOverrides): Promise<BigNumber>;
   owner(_overrides?: CallOverrides): Promise<string>;
   priceAggregator(_overrides?: CallOverrides): Promise<string>;
   priceAggregator_BRL(_overrides?: CallOverrides): Promise<string>;
@@ -563,23 +562,19 @@ interface PriceFeedCalls {
 
 interface PriceFeedTransactions {
   fetchPrice(_overrides?: Overrides): Promise<BigNumber>;
-  setAddresses(_priceAggregatorAddress: string, _tellorCallerAddress: string, _overrides?: Overrides): Promise<void>;
+  setAddresses(_priceAggregatorAddress: string, _priceAggregatorAddressBRL: string, _tellorCallerAddress: string, _overrides?: Overrides): Promise<void>;
 }
 
 export interface PriceFeed
   extends _TypedLiquityContract<PriceFeedCalls, PriceFeedTransactions> {
   readonly filters: {
     LastGoodPriceUpdated(_lastGoodPrice?: null): EventFilter;
-    LastGoodPriceUpdated_BRL(_lastGoodPrice?: null): EventFilter;
     OwnershipTransferred(previousOwner?: string | null, newOwner?: string | null): EventFilter;
     PriceFeedStatusChanged(newStatus?: null): EventFilter;
-    PriceFeedStatusChanged_BRL(newStatus?: null): EventFilter;
   };
   extractEvents(logs: Log[], name: "LastGoodPriceUpdated"): _TypedLogDescription<{ _lastGoodPrice: BigNumber }>[];
-  extractEvents(logs: Log[], name: "LastGoodPriceUpdated_BRL"): _TypedLogDescription<{ _lastGoodPrice: BigNumber }>[];
   extractEvents(logs: Log[], name: "OwnershipTransferred"): _TypedLogDescription<{ previousOwner: string; newOwner: string }>[];
   extractEvents(logs: Log[], name: "PriceFeedStatusChanged"): _TypedLogDescription<{ newStatus: number }>[];
-  extractEvents(logs: Log[], name: "PriceFeedStatusChanged_BRL"): _TypedLogDescription<{ newStatus: number }>[];
 }
 
 interface PriceFeedTestnetCalls {

@@ -1,3 +1,61 @@
+### STEP BY STEP DEPLOY on Hackaton
+
+Adicionamos o arquivo .env com as variáveis de ambiente
+
+`yarn deploy --network forkedMainnet --userealpricefeed --createuniswappair`
+
+Caso os lower cases não funcionem troque o default para real price e o uniswap pair para ser true :)
+
+copiamos o deployments da forkedMainnet para o deployments da mainnet na pasta do dist
+- packages/lib-ethers/dist/deployments ( esse que é utilizado pela Build do projeto )
+- packages/lib-ethers/deployments
+
+`yarn build` (p/ gerar o build do projeto)
+
+servimos a pasta gerada no build ( com `http-server .` na pasta )
+
+foram feitas mudanças relacionadas a adição de um novo agregador de preço ( Chainlink ) para o preço em BRL.
+
+considerações finais:
+O mais dificil foi entender o que estava sendo feito em React + solidity para poder conseguir por funcionando e após alguns entraves, que correlacionam com adicionar a rede na metamask, usar uma forked network, entre outras coisas conseguimos dar o deploy até mesmo na goerli.
+
+# Deploy da Goerli
+
+```.json
+  {
+    "chainId": 5,
+    "version": "57d9bb013ff878442b763312c3374fe4b82c6403",
+    "deploymentDate": 1680437472000,
+    "bootstrapPeriod": 1209600,
+    "totalStabilityPoolLQTYReward": "32000000",
+    "liquidityMiningLQTYRewardRate": "0.257201646090534979",
+    "_priceFeedIsTestnet": false,
+    "_uniTokenIsMock": false,
+    "_isDev": false,
+    "startBlock": 8760781,
+    "addresses": {
+      "activePool": "0x3904945A0d96245c806e5eD3868eB130Df03D52b",
+      "borrowerOperations": "0x20aAdb63F3c71c48e6376a0Ee37C5cFBF37A0CE7",
+      "troveManager": "0x69D8B7f6eA7b426B1a5849172aBfeC2937C308a1",
+      "collSurplusPool": "0x7037e0D0b96981490f7dddDbe1ca98921B35fAC0",
+      "communityIssuance": "0xe94eA9eFB5fCd048877cFd462E6A3925A875B706",
+      "defaultPool": "0x72E52F854C90A58610F34af73571b6ea9B352E49",
+      "hintHelpers": "0xB51aB100Af0c1b48f835eD04D1D352946f391Bc2",
+      "lockupContractFactory": "0x9c496B4d7387022E599948d489457f5FDb93fC1F",
+      "lqtyStaking": "0x8d3D498Cc35d2E6F6491ad2e33b0b32F9DB7FDe4",
+      "priceFeed": "0x60995d91894cFF4E6Fb1aB464e450d6137DFa41d",
+      "sortedTroves": "0x1AEF4b7387D59BCa77510985070431642Aee9A92",
+      "stabilityPool": "0xC13861806eF6029Cfc18f5ec08c1A595b53B7296",
+      "gasPool": "0xC7bB05D601bd0CaAA5C44E69303C379a95443A78",
+      "unipool": "0x9eE7Ea579170b6C12bF21eB3ECCf1303978Da6db",
+      "lusdToken": "0x535093B1285fD630fF631bFC2bbbD0A1981eaB90",
+      "lqtyToken": "0x7e6947A45fFee5BA9A194D1FfEe89D2c8d5fb602",
+      "multiTroveGetter": "0x8337979b2C9cB475dceB3Ae8D663cEa11fa30ef2",
+      "uniToken": "0x62912C7785cAc77bD06727A2c60790AEC729c20a"
+    }
+  }
+```
+
 # Liquity: Decentralized Borrowing Protocol
 
 <a href="https://www.defisafety.com/pqrs/376"><img src="https://defi-safety.s3.amazonaws.com/Liquity_Badge_78e39d44ca.png" alt="DeFiSafetyBadge" align="right" style="width:228px;height:76px;"></a>
@@ -1757,3 +1815,23 @@ THE LIQUITY PROTOCOL SOFTWARE HAS BEEN PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
 There are no official frontend operators, and the use of any frontend is made by users at their own risk. To assess the trustworthiness of a frontend operator lies in the sole responsibility of the users and must be made carefully.
 
 User is solely responsible for complying with applicable law when interacting (in particular, when using ETH, LUSD, LQTY or other Token) with the Liquity Protocol Software whatsoever. 
+
+
+### STEP BY STEP DEPLOY on Hackaton
+
+adicionamos o arquivo .env com as variáveis de ambiente
+
+yarn deploy --network forkedMainnet
+
+copiamos o deployments da forkedMainnet para o deployments da mainnet na pasta do dist
+- packages/lib-ethers/dist/deployments ( esse que é utilizado pela Build do projeto )
+- packages/lib-ethers/deployments
+
+yarn build (p/ gerar o build do projeto)
+
+servimos a pasta gerada no build ( com http-server . na pasta )
+
+foram feitas mudanças relacionadas a adição de um novo agregador de preço ( Chainlink ) para o preço em BRL.
+
+considerações finais:
+O mais dificil foi entender o que estava sendo feito em React + solidity para poder conseguir por funcionando e após alguns entraves, que correlacionam com adicionar a rede na metamask, usar uma forked network, entre outras coisas conseguimos dar o deploy até mesmo na goerli.

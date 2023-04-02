@@ -13,10 +13,11 @@ export const Dashboard: React.FC = () => (
     <Arthur title="test"></Arthur>
     <Container variant="columns">
     <Container variant="left">
-      <BondsTable />
+      {/* Comentando o que não está sendo testado nesse deploy */}
+      {/* <BondsTable /> */}
       <Trove />
-      <Stability />
-      <Staking />
+      {/* <Stability /> */}
+      {/* <Staking /> */}
     </Container>
 
     <Container variant="right">
